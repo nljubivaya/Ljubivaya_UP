@@ -1,0 +1,48 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+            xmlns:vm="using:UP_Ljubivaya.ViewModels"
+			 x:DataType="vm:ShowPartnerProductVM"
+			 x:Class="UP_Ljubivaya.ShowPartnerProduct">
+	
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+
+		<TextBlock Grid.Row="0" Text="История реализации продукции " HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" Margin="10"/>
+		<Button Command="{Binding ToShowPartner}">Назад </Button>
+		<Border Grid.Row="1" BorderBrush="Gray" BorderThickness="1" Margin="10" Padding="10">
+			<ScrollViewer Grid.Row="1" Margin="10" BorderThickness="2" BorderBrush="Green">
+				<StackPanel>
+					<TextBlock FontSize="16" FontWeight="Bold">
+						<Run Text="Компания" />
+						<Run Text=" | " />
+						<Run Text="{Binding Partner.CompanyName}" />
+					</TextBlock>
+					<TextBlock Text="Продукция"/>
+					<ListBox ItemsSource="{Binding PartnersProducts}">
+						<ListBox.ItemTemplate>
+							<DataTemplate>
+								<StackPanel>
+									<TextBlock Text="{Binding Product.ProductName}"></TextBlock>
+									<TextBlock>
+										<Run Text="Количество: " />
+										<Run Text="{Binding Quantity}" />
+									</TextBlock>
+									<TextBlock>
+										<Run Text="Дата продажи: " />
+										<Run Text="{Binding Date}" />
+									</TextBlock>
+									</StackPanel>
+							</DataTemplate>
+						</ListBox.ItemTemplate>
+					</ListBox>
+				</StackPanel>
+			</ScrollViewer>
+		</Border>
+	</Grid>
+</UserControl>

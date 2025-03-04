@@ -12,4 +12,10 @@ public partial class AddPartner : UserControl
         InitializeComponent();
         DataContext = new AddPartnerVM();
     }
+
+    public AddPartner(int Id)
+    {
+        InitializeComponent();
+        DataContext = new AddPartnerVM(Id);
+    }
 }

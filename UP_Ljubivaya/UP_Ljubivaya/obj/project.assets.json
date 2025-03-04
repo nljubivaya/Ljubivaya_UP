@@ -355,6 +355,22 @@
           }
         }
       },
+      "DialogHost.Avalonia/0.8.1": {
+        "type": "package",
+        "dependencies": {
+          "Avalonia": "11.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/DialogHost.Avalonia.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/DialogHost.Avalonia.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "DynamicData/8.4.1": {
         "type": "package",
         "dependencies": {
@@ -480,6 +496,19 @@
           "lib/net6.0/Humanizer.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "MessageBox.Avalonia/3.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Avalonia": "11.1.3",
+          "DialogHost.Avalonia": "0.8.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/MsBox.Avalonia.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MsBox.Avalonia.dll": {}
         }
       },
       "MicroCom.Runtime/0.11.0": {
@@ -2022,6 +2051,21 @@
         "lib/netstandard2.0/Avalonia.X11.xml"
       ]
     },
+    "DialogHost.Avalonia/0.8.1": {
+      "sha512": "RLBOMqjJPgSmwe0i1pzX3Q7Pn0i4xE/E1b774krd4VyEkaorz1AYMdYQHyIfuhtQv5NntZyS0MuQbxJl/PhzBg==",
+      "type": "package",
+      "path": "dialoghost.avalonia/0.8.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "dialoghost.avalonia.0.8.1.nupkg.sha512",
+        "dialoghost.avalonia.nuspec",
+        "icon.png",
+        "lib/netstandard2.0/DialogHost.Avalonia.dll",
+        "lib/netstandard2.0/DialogHost.Avalonia.xml"
+      ]
+    },
     "DynamicData/8.4.1": {
       "sha512": "Mn1+fU/jqxgONEJq8KLQPGWEi7g/hUVTbjZyn4QM0sWWDAVOHPO9WjXWORSykwdfg/6S3GM15qsfz+2EvO+QAQ==",
       "type": "package",
@@ -2236,6 +2280,19 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "MessageBox.Avalonia/3.2.0": {
+      "sha512": "f4iJxmyF0fKoJQdMCiSSRitP/niUl4g1mSBLGQ9+/58ZXrhjUImnuLdbuBY36n+JpMegy4FA62s588yJkbbjCA==",
+      "type": "package",
+      "path": "messagebox.avalonia/3.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.jpg",
+        "lib/netstandard2.0/MsBox.Avalonia.dll",
+        "messagebox.avalonia.3.2.0.nupkg.sha512",
+        "messagebox.avalonia.nuspec"
       ]
     },
     "MicroCom.Runtime/0.11.0": {
@@ -4495,29 +4552,25 @@
       "Avalonia.Fonts.Inter >= 11.2.1",
       "Avalonia.ReactiveUI >= 11.2.1",
       "Avalonia.Themes.Fluent >= 11.2.1",
+      "MessageBox.Avalonia >= 3.2.0",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.2",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 9.0.4"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\любиваяаа\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Yevge\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\любиваяаа\\source\\repos\\UP_Ljubivaya\\UP_Ljubivaya\\UP_Ljubivaya.csproj",
+      "projectUniqueName": "C:\\Users\\Yevge\\source\\OneDrive\\Рабочий стол\\UP_Ljubivaya\\UP_Ljubivaya\\UP_Ljubivaya\\UP_Ljubivaya.csproj",
       "projectName": "UP_Ljubivaya",
-      "projectPath": "C:\\Users\\любиваяаа\\source\\repos\\UP_Ljubivaya\\UP_Ljubivaya\\UP_Ljubivaya.csproj",
-      "packagesPath": "C:\\Users\\любиваяаа\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\любиваяаа\\source\\repos\\UP_Ljubivaya\\UP_Ljubivaya\\obj\\",
+      "projectPath": "C:\\Users\\Yevge\\source\\OneDrive\\Рабочий стол\\UP_Ljubivaya\\UP_Ljubivaya\\UP_Ljubivaya\\UP_Ljubivaya.csproj",
+      "packagesPath": "C:\\Users\\Yevge\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Yevge\\source\\OneDrive\\Рабочий стол\\UP_Ljubivaya\\UP_Ljubivaya\\UP_Ljubivaya\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\любиваяаа\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Yevge\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4525,6 +4578,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4541,9 +4595,8 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.200"
+        "auditMode": "all"
+      }
     },
     "frameworks": {
       "net9.0": {
@@ -4573,6 +4626,10 @@
             "target": "Package",
             "version": "[11.2.1, )"
           },
+          "MessageBox.Avalonia": {
+            "target": "Package",
+            "version": "[3.2.0, )"
+          },
           "Microsoft.EntityFrameworkCore.Tools": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
@@ -4595,12 +4652,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+            "version": "[9.0.102, 9.0.102]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

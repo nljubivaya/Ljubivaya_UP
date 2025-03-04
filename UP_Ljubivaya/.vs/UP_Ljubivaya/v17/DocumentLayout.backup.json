@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\\u043B\u044E\u0431\u0438\u0432\u0430\u044F\u0430\u0430\\source\\repos\\UP_Ljubivaya\\",
+  "WorkspaceRootPath": "C:\\Users\\Yevge\\source\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\UP_Ljubivaya\\UP_Ljubivaya\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6AB4BDBD-E55F-4C31-8DAE-F9DE95A3475F}|UP_Ljubivaya\\UP_Ljubivaya.csproj|c:\\users\\\u043B\u044E\u0431\u0438\u0432\u0430\u044F\u0430\u0430\\source\\repos\\up_ljubivaya\\up_ljubivaya\\views\\showpartner.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{6AB4BDBD-E55F-4C31-8DAE-F9DE95A3475F}|UP_Ljubivaya\\UP_Ljubivaya.csproj|solutionrelative:up_ljubivaya\\views\\showpartner.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+      "AbsoluteMoniker": "D:0:0:{6AB4BDBD-E55F-4C31-8DAE-F9DE95A3475F}|UP_Ljubivaya\\UP_Ljubivaya.csproj|c:\\users\\yevge\\source\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\up_ljubivaya\\up_ljubivaya\\up_ljubivaya\\viewmodels\\addpartnervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AB4BDBD-E55F-4C31-8DAE-F9DE95A3475F}|UP_Ljubivaya\\UP_Ljubivaya.csproj|solutionrelative:up_ljubivaya\\viewmodels\\addpartnervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AB4BDBD-E55F-4C31-8DAE-F9DE95A3475F}|UP_Ljubivaya\\UP_Ljubivaya.csproj|c:\\users\\\u043B\u044E\u0431\u0438\u0432\u0430\u044F\u0430\u0430\\source\\repos\\up_ljubivaya\\up_ljubivaya\\viewmodels\\showpartnervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AB4BDBD-E55F-4C31-8DAE-F9DE95A3475F}|UP_Ljubivaya\\UP_Ljubivaya.csproj|solutionrelative:up_ljubivaya\\viewmodels\\showpartnervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6AB4BDBD-E55F-4C31-8DAE-F9DE95A3475F}|UP_Ljubivaya\\UP_Ljubivaya.csproj|c:\\users\\yevge\\source\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\up_ljubivaya\\up_ljubivaya\\up_ljubivaya\\views\\addpartner.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{6AB4BDBD-E55F-4C31-8DAE-F9DE95A3475F}|UP_Ljubivaya\\UP_Ljubivaya.csproj|solutionrelative:up_ljubivaya\\views\\addpartner.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AB4BDBD-E55F-4C31-8DAE-F9DE95A3475F}|UP_Ljubivaya\\UP_Ljubivaya.csproj|c:\\users\\\u043B\u044E\u0431\u0438\u0432\u0430\u044F\u0430\u0430\\source\\repos\\up_ljubivaya\\up_ljubivaya\\models\\_43pljubivayaupcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AB4BDBD-E55F-4C31-8DAE-F9DE95A3475F}|UP_Ljubivaya\\UP_Ljubivaya.csproj|solutionrelative:up_ljubivaya\\models\\_43pljubivayaupcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6AB4BDBD-E55F-4C31-8DAE-F9DE95A3475F}|UP_Ljubivaya\\UP_Ljubivaya.csproj|c:\\users\\yevge\\source\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\up_ljubivaya\\up_ljubivaya\\up_ljubivaya\\views\\showpartnerproduct.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{6AB4BDBD-E55F-4C31-8DAE-F9DE95A3475F}|UP_Ljubivaya\\UP_Ljubivaya.csproj|solutionrelative:up_ljubivaya\\views\\showpartnerproduct.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Bookmark",
@@ -34,44 +34,43 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ShowPartner.axaml",
-              "DocumentMoniker": "C:\\Users\\\u043B\u044E\u0431\u0438\u0432\u0430\u044F\u0430\u0430\\source\\repos\\UP_Ljubivaya\\UP_Ljubivaya\\Views\\ShowPartner.axaml",
-              "RelativeDocumentMoniker": "UP_Ljubivaya\\Views\\ShowPartner.axaml",
-              "ToolTip": "C:\\Users\\\u043B\u044E\u0431\u0438\u0432\u0430\u044F\u0430\u0430\\source\\repos\\UP_Ljubivaya\\UP_Ljubivaya\\Views\\ShowPartner.axaml*",
-              "RelativeToolTip": "UP_Ljubivaya\\Views\\ShowPartner.axaml*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-01T12:40:35.004Z",
+              "Title": "AddPartnerVM.cs",
+              "DocumentMoniker": "C:\\Users\\Yevge\\source\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\UP_Ljubivaya\\UP_Ljubivaya\\UP_Ljubivaya\\ViewModels\\AddPartnerVM.cs",
+              "RelativeDocumentMoniker": "UP_Ljubivaya\\ViewModels\\AddPartnerVM.cs",
+              "ToolTip": "C:\\Users\\Yevge\\source\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\UP_Ljubivaya\\UP_Ljubivaya\\UP_Ljubivaya\\ViewModels\\AddPartnerVM.cs",
+              "RelativeToolTip": "UP_Ljubivaya\\ViewModels\\AddPartnerVM.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAADQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T10:50:26.206Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ShowPartnerVM.cs",
-              "DocumentMoniker": "C:\\Users\\\u043B\u044E\u0431\u0438\u0432\u0430\u044F\u0430\u0430\\source\\repos\\UP_Ljubivaya\\UP_Ljubivaya\\ViewModels\\ShowPartnerVM.cs",
-              "RelativeDocumentMoniker": "UP_Ljubivaya\\ViewModels\\ShowPartnerVM.cs",
-              "ToolTip": "C:\\Users\\\u043B\u044E\u0431\u0438\u0432\u0430\u044F\u0430\u0430\\source\\repos\\UP_Ljubivaya\\UP_Ljubivaya\\ViewModels\\ShowPartnerVM.cs",
-              "RelativeToolTip": "UP_Ljubivaya\\ViewModels\\ShowPartnerVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAABjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T12:58:18.357Z",
+              "Title": "AddPartner.axaml",
+              "DocumentMoniker": "C:\\Users\\Yevge\\source\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\UP_Ljubivaya\\UP_Ljubivaya\\UP_Ljubivaya\\Views\\AddPartner.axaml",
+              "RelativeDocumentMoniker": "UP_Ljubivaya\\Views\\AddPartner.axaml",
+              "ToolTip": "C:\\Users\\Yevge\\source\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\UP_Ljubivaya\\UP_Ljubivaya\\UP_Ljubivaya\\Views\\AddPartner.axaml",
+              "RelativeToolTip": "UP_Ljubivaya\\Views\\AddPartner.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-04T10:44:26.246Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "_43pLjubivayaUpContext.cs",
-              "DocumentMoniker": "C:\\Users\\\u043B\u044E\u0431\u0438\u0432\u0430\u044F\u0430\u0430\\source\\repos\\UP_Ljubivaya\\UP_Ljubivaya\\Models\\_43pLjubivayaUpContext.cs",
-              "RelativeDocumentMoniker": "UP_Ljubivaya\\Models\\_43pLjubivayaUpContext.cs",
-              "ToolTip": "C:\\Users\\\u043B\u044E\u0431\u0438\u0432\u0430\u044F\u0430\u0430\\source\\repos\\UP_Ljubivaya\\UP_Ljubivaya\\Models\\_43pLjubivayaUpContext.cs",
-              "RelativeToolTip": "UP_Ljubivaya\\Models\\_43pLjubivayaUpContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T13:14:29.632Z",
+              "Title": "ShowPartnerProduct.axaml",
+              "DocumentMoniker": "C:\\Users\\Yevge\\source\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\UP_Ljubivaya\\UP_Ljubivaya\\UP_Ljubivaya\\Views\\ShowPartnerProduct.axaml",
+              "RelativeDocumentMoniker": "UP_Ljubivaya\\Views\\ShowPartnerProduct.axaml",
+              "ToolTip": "C:\\Users\\Yevge\\source\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\UP_Ljubivaya\\UP_Ljubivaya\\UP_Ljubivaya\\Views\\ShowPartnerProduct.axaml",
+              "RelativeToolTip": "UP_Ljubivaya\\Views\\ShowPartnerProduct.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-03T16:00:54.399Z",
               "EditorCaption": ""
             }
           ]

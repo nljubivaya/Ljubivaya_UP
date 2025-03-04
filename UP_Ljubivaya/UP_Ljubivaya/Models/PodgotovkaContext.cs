@@ -4,13 +4,13 @@ using Microsoft.EntityFrameworkCore;
 
 namespace UP_Ljubivaya.Models;
 
-public partial class _43pLjubivayaUpContext : DbContext
+public partial class PodgotovkaContext : DbContext
 {
-    public _43pLjubivayaUpContext()
+    public PodgotovkaContext()
     {
     }
 
-    public _43pLjubivayaUpContext(DbContextOptions<_43pLjubivayaUpContext> options)
+    public PodgotovkaContext(DbContextOptions<PodgotovkaContext> options)
         : base(options)
     {
     }
@@ -68,7 +68,7 @@ public partial class _43pLjubivayaUpContext : DbContext
                 .HasMaxLength(255)
                 .HasColumnName("history");
             entity.Property(e => e.Inn)
-                .HasMaxLength(10)
+                .HasMaxLength(11)
                 .HasColumnName("inn");
             entity.Property(e => e.Logo)
                 .HasMaxLength(255)

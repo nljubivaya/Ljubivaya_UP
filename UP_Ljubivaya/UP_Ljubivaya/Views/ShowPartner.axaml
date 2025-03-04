@@ -13,22 +13,40 @@
 		</Grid.RowDefinitions>
 
 		<TextBlock Grid.Row="0" Text="Партнёры" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" Margin="10"/>
-		<Border Grid.Row="1" BorderBrush="Gray" BorderThickness="1" Margin="10" Padding="10">
-		<StackPanel>
-			<ListBox ItemsSource="{Binding PartnerList}">
-				<ListBox.ItemTemplate>
-					<DataTemplate>
-						<StackPanel>
-							<TextBlock Text="{Binding PartnerTypeNavigation.Name}" FontSize="16" FontWeight="Bold"/>
-							<TextBlock Text="{Binding CompanyName}" TextWrapping="Wrap" Margin="0,5,0,0"/>
-							<TextBlock Text="{Binding FioDirector}" TextWrapping="Wrap" Margin="0,5,0,0"/>
-							<TextBlock Text="{Binding Phone}" TextWrapping="Wrap" Margin="0,5,0,0"/>
-							<TextBlock Text="{Binding Email}" TextWrapping="Wrap" Margin="0,5,0,0"/>
-						</StackPanel>
-					</DataTemplate>
-				</ListBox.ItemTemplate>
-			</ListBox>
-		</StackPanel>
-		</Border>
+
+		<Button Command="{Binding ToAddPartner}" Grid.Row="0" Margin="10,40,10,10">Добавить</Button>
+
+		<ScrollViewer Grid.Row="1" Margin="10" BorderThickness="2" BorderBrush="Green">
+			<Border BorderBrush="Gray" BorderThickness="1" Margin="10" Padding="10">
+				<StackPanel>
+					<ListBox ItemsSource="{Binding PartnerList}">
+						<ListBox.ItemTemplate>
+							<DataTemplate>
+								<Grid>
+									<Grid.ColumnDefinitions>
+										<ColumnDefinition Width="*" />
+										<ColumnDefinition Width="Auto" />
+									</Grid.ColumnDefinitions>
+									<StackPanel Grid.Column="0">
+										<TextBlock FontSize="16" FontWeight="Bold">
+											<Run Text="{Binding PartnerTypeNavigation.Name}" />
+											<Run Text=" | " />
+											<Run Text="{Binding CompanyName}" />
+										</TextBlock>
+										<TextBlock Text="{Binding FioDirector}" TextWrapping="Wrap" Margin="0,5,0,0"/>
+										<TextBlock Text="{Binding Phone}" TextWrapping="Wrap" Margin="0,5,0,0"/>
+										<TextBlock Text="{Binding Email}" TextWrapping="Wrap" Margin="0,5,0,0"/>
+										<Button Command="{Binding $parent[UserControl].((vm:ShowPartnerVM)DataContext).ToUpdatePartner}" CommandParameter="{Binding Id}">Редактировать</Button>
+										<Button Command="{Binding $parent[UserControl].((vm:ShowPartnerVM)DataContext).ToShowPartnerProduct}" CommandParameter="{Binding Id}">Просмотр продуктов</Button>
+
+									</StackPanel>
+									<TextBlock Grid.Column="1" Text="{Binding Path=Discount}" VerticalAlignment="Center" Margin="10,0,0,0" />
+								</Grid>
+							</DataTemplate>
+						</ListBox.ItemTemplate>
+					</ListBox>
+				</StackPanel>
+			</Border>
+		</ScrollViewer>
 	</Grid>
 </UserControl>

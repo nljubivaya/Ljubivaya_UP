@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\любиваяаа\\source\\repos\\UP_Ljubivaya\\UP_Ljubivaya\\UP_Ljubivaya.csproj": {}
+    "C:\\Users\\Yevge\\source\\OneDrive\\Рабочий стол\\UP_Ljubivaya\\UP_Ljubivaya\\UP_Ljubivaya\\UP_Ljubivaya.csproj": {}
   },
   "projects": {
-    "C:\\Users\\любиваяаа\\source\\repos\\UP_Ljubivaya\\UP_Ljubivaya\\UP_Ljubivaya.csproj": {
+    "C:\\Users\\Yevge\\source\\OneDrive\\Рабочий стол\\UP_Ljubivaya\\UP_Ljubivaya\\UP_Ljubivaya\\UP_Ljubivaya.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\любиваяаа\\source\\repos\\UP_Ljubivaya\\UP_Ljubivaya\\UP_Ljubivaya.csproj",
+        "projectUniqueName": "C:\\Users\\Yevge\\source\\OneDrive\\Рабочий стол\\UP_Ljubivaya\\UP_Ljubivaya\\UP_Ljubivaya\\UP_Ljubivaya.csproj",
         "projectName": "UP_Ljubivaya",
-        "projectPath": "C:\\Users\\любиваяаа\\source\\repos\\UP_Ljubivaya\\UP_Ljubivaya\\UP_Ljubivaya.csproj",
-        "packagesPath": "C:\\Users\\любиваяаа\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\любиваяаа\\source\\repos\\UP_Ljubivaya\\UP_Ljubivaya\\obj\\",
+        "projectPath": "C:\\Users\\Yevge\\source\\OneDrive\\Рабочий стол\\UP_Ljubivaya\\UP_Ljubivaya\\UP_Ljubivaya\\UP_Ljubivaya.csproj",
+        "packagesPath": "C:\\Users\\Yevge\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Yevge\\source\\OneDrive\\Рабочий стол\\UP_Ljubivaya\\UP_Ljubivaya\\UP_Ljubivaya\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\любиваяаа\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Yevge\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,9 +39,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+          "auditMode": "all"
+        }
       },
       "frameworks": {
         "net9.0": {
@@ -74,6 +70,10 @@
               "target": "Package",
               "version": "[11.2.1, )"
             },
+            "MessageBox.Avalonia": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -96,12 +96,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+              "version": "[9.0.102, 9.0.102]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
