@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UP_Ljubivaya")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08066d8f9d326e561d399641e0ce31c529a925e0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+182c2b613987b8f650b155a7dedd9f834d084fdd")]
 [assembly: System.Reflection.AssemblyProductAttribute("UP_Ljubivaya")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UP_Ljubivaya")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

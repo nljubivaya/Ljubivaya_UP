@@ -11,6 +11,12 @@ namespace UP_Ljubivaya.ViewModels
 {
 	public class AddPartnerVM : ViewModelBase
     {
+        private string _pageName = ""; // Поле для хранения значения
+        public string PageName // Свойство для привязки
+        {
+            get => _pageName;
+            set => this.RaiseAndSetIfChanged(ref _pageName, value);
+        }
         private bool _isEditMode;
         public bool IsEditMode
         {
@@ -21,19 +27,23 @@ namespace UP_Ljubivaya.ViewModels
         {
             get
             {
-                return IsEditMode ? "Сохранить изменения" : "Добавить";
+                return IsEditMode ? "Сохранить изменения" : "Сохранить";
             }
         }
 
+        //Возвращает список типов партнеров из базы данных, преобразованный в список для удобства работы с данными.
         public List<PartnersType> PartnersTypes => MainWindowViewModel.myConnection.PartnersTypes.ToList();
         Partner? _newPartner;
         public Partner? NewPartner { get => _newPartner; set => this.RaiseAndSetIfChanged(ref _newPartner, value); }
+        //Инициализирует новый экземпляр партнера или загружает существующего партнера по заданному идентификатору, включая связанные данные о типе партнера и продуктах
         public AddPartnerVM()
         {
+            PageName = "Добавление партнера";
             NewPartner = new Partner();
         }
         public AddPartnerVM(int Id)
         {
+            PageName = "Изменение партнера";
             _newPartner = MainWindowViewModel.myConnection.Partners
                 .Include(x => x.PartnerTypeNavigation)
                 .Include(x => x.PartnersProducts).ThenInclude(x => x.Product)

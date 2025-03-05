@@ -38,7 +38,6 @@
 										<TextBlock Text="{Binding Email}" TextWrapping="Wrap" Margin="0,5,0,0"/>
 										<Button Command="{Binding $parent[UserControl].((vm:ShowPartnerVM)DataContext).ToUpdatePartner}" CommandParameter="{Binding Id}">Редактировать</Button>
 										<Button Command="{Binding $parent[UserControl].((vm:ShowPartnerVM)DataContext).ToShowPartnerProduct}" CommandParameter="{Binding Id}">Просмотр продуктов</Button>
-
 									</StackPanel>
 									<TextBlock Grid.Column="1" Text="{Binding Path=Discount}" VerticalAlignment="Center" Margin="10,0,0,0" />
 								</Grid>

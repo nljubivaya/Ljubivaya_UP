@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "MaterialCalculation/1.0.0": {
+        "runtime": {
+          "MaterialCalculation.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MaterialCalculation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

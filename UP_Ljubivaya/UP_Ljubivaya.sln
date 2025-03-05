@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35806.99 d17.13
+VisualStudioVersion = 17.13.35806.99
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UP_Ljubivaya", "UP_Ljubivaya\UP_Ljubivaya.csproj", "{6AB4BDBD-E55F-4C31-8DAE-F9DE95A3475F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UP_Ljubivaya", "UP_Ljubivaya\UP_Ljubivaya.csproj", "{6AB4BDBD-E55F-4C31-8DAE-F9DE95A3475F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialCalculation", "MaterialCalculation\MaterialCalculation.csproj", "{283D0F93-BA60-4787-BD62-A3CBE600E43C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{C58095DA-471B-4BB9-96C1-B2512625070D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{6AB4BDBD-E55F-4C31-8DAE-F9DE95A3475F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AB4BDBD-E55F-4C31-8DAE-F9DE95A3475F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AB4BDBD-E55F-4C31-8DAE-F9DE95A3475F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{283D0F93-BA60-4787-BD62-A3CBE600E43C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{283D0F93-BA60-4787-BD62-A3CBE600E43C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{283D0F93-BA60-4787-BD62-A3CBE600E43C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{283D0F93-BA60-4787-BD62-A3CBE600E43C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C58095DA-471B-4BB9-96C1-B2512625070D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C58095DA-471B-4BB9-96C1-B2512625070D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C58095DA-471B-4BB9-96C1-B2512625070D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C58095DA-471B-4BB9-96C1-B2512625070D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

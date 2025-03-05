@@ -9,6 +9,7 @@ namespace UP_Ljubivaya.ViewModels
 {
 	public class ShowPartnerVM : ViewModelBase
     {
+        public string PageName;
         List<Partner> _partnerList;
         public List<Partner> PartnerList { get => _partnerList; set => this.RaiseAndSetIfChanged(ref _partnerList, value); }
         public ShowPartnerVM()
@@ -22,10 +23,12 @@ namespace UP_Ljubivaya.ViewModels
         public void ToAddPartner()
         {
             MainWindowViewModel.Instance.PageContent = new AddPartner();
+            PageName = "Add";
         }
         public void ToUpdatePartner(int Id)
         {
             MainWindowViewModel.Instance.PageContent = new AddPartner(Id);
+            PageName = "update";
         }
         public void ToShowPartnerProduct(int Id)
         {

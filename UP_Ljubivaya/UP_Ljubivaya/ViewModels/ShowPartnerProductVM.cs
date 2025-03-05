@@ -29,7 +29,6 @@ namespace UP_Ljubivaya.ViewModels
                 .Include(x => x.PartnerTypeNavigation)
                 .Include(x => x.PartnersProducts).ThenInclude(x => x.Product)
                 .FirstOrDefault(x => x.Id == id);
-
             if (_partner != null)
             {
                 PartnersProducts = _partner.PartnersProducts.ToList();

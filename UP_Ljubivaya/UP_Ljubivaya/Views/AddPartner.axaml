@@ -12,8 +12,7 @@
 			<RowDefinition Height="*"/>
 		</Grid.RowDefinitions>
 
-		<TextBlock Grid.Row="0" Text="Добавление партнера" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" Margin="10"/>
-		<Button Command="{Binding ToShowPartner}">Назад </Button>
+		<TextBlock Text="{Binding PageName}" Grid.Row="0" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold" Margin="10"/><Button Command="{Binding ToShowPartner}">Назад </Button>
 		<Border Grid.Row="1" BorderBrush="Gray" BorderThickness="1" Margin="10" Padding="10">
 			<ScrollViewer Grid.Row="1" Margin="10" BorderThickness="2" BorderBrush="Green">
 			<StackPanel>
@@ -45,7 +44,7 @@
 
 				<TextBlock>Введите email</TextBlock>
 				<TextBox Text="{Binding NewPartner.Email}"></TextBox>
-				<Button Command="{Binding AddPartner}" Content="{Binding ButtonText}">Сохранить"</Button>
+				<Button Command="{Binding AddPartner}" Content="{Binding ButtonText}">"</Button>
 			</StackPanel>
 			</ScrollViewer>
 		</Border>
