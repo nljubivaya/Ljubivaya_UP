@@ -4,17 +4,12 @@
     {
         public int MaterialCalculator(int productId, int materialId, int kolProd, float width, float length)
         {
-            // Проверка входных данных
             if (kolProd <= 0 || width <= 0 || length <= 0)
             {
                 return -1; 
             }
-
-            // Коэффициенты для типов продукции
             double koeff = 0;
             double defect = 0;
-
-            // Определяем коэффициенты в зависимости от типов
             switch (productId)
             {
                 case 1:
@@ -113,7 +108,6 @@
                     return -1; 
             }
 
-            // Расчет необходимого количества материала
             double allKolvoMaterial = (width * length * koeff * kolProd);
             double MaterialWithDefect = allKolvoMaterial + (allKolvoMaterial * defect);
             return Convert.ToInt32(Math.Ceiling(MaterialWithDefect));
