@@ -4563,11 +4563,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yevge\\source\\OneDrive\\Рабочий стол\\UP_Ljubivaya\\UP_Ljubivaya\\UP_Ljubivaya\\UP_Ljubivaya.csproj",
+      "projectUniqueName": "C:\\Users\\Yevge\\source\\OneDrive\\Рабочий стол\\Ljubivaya_UP\\UP_Ljubivaya\\UP_Ljubivaya\\UP_Ljubivaya.csproj",
       "projectName": "UP_Ljubivaya",
-      "projectPath": "C:\\Users\\Yevge\\source\\OneDrive\\Рабочий стол\\UP_Ljubivaya\\UP_Ljubivaya\\UP_Ljubivaya\\UP_Ljubivaya.csproj",
+      "projectPath": "C:\\Users\\Yevge\\source\\OneDrive\\Рабочий стол\\Ljubivaya_UP\\UP_Ljubivaya\\UP_Ljubivaya\\UP_Ljubivaya.csproj",
       "packagesPath": "C:\\Users\\Yevge\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yevge\\source\\OneDrive\\Рабочий стол\\UP_Ljubivaya\\UP_Ljubivaya\\UP_Ljubivaya\\obj\\",
+      "outputPath": "C:\\Users\\Yevge\\source\\OneDrive\\Рабочий стол\\Ljubivaya_UP\\UP_Ljubivaya\\UP_Ljubivaya\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Yevge\\AppData\\Roaming\\NuGet\\NuGet.Config",

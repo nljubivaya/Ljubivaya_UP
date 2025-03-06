@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Yevge\\source\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\UP_Ljubivaya\\UP_Ljubivaya\\",
+  "WorkspaceRootPath": "C:\\Users\\Yevge\\source\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Ljubivaya_UP\\UP_Ljubivaya\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{283D0F93-BA60-4787-BD62-A3CBE600E43C}|MaterialCalculation\\MaterialCalculation.csproj|c:\\users\\yevge\\source\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\up_ljubivaya\\up_ljubivaya\\materialcalculation\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{283D0F93-BA60-4787-BD62-A3CBE600E43C}|MaterialCalculation\\MaterialCalculation.csproj|solutionrelative:materialcalculation\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C58095DA-471B-4BB9-96C1-B2512625070D}|TestProject1\\TestProject1.csproj|c:\\users\\yevge\\source\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ljubivaya_up\\up_ljubivaya\\testproject1\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C58095DA-471B-4BB9-96C1-B2512625070D}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C58095DA-471B-4BB9-96C1-B2512625070D}|TestProject1\\TestProject1.csproj|c:\\users\\yevge\\source\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\up_ljubivaya\\up_ljubivaya\\testproject1\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C58095DA-471B-4BB9-96C1-B2512625070D}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{283D0F93-BA60-4787-BD62-A3CBE600E43C}|MaterialCalculation\\MaterialCalculation.csproj|c:\\users\\yevge\\source\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ljubivaya_up\\up_ljubivaya\\materialcalculation\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{283D0F93-BA60-4787-BD62-A3CBE600E43C}|MaterialCalculation\\MaterialCalculation.csproj|solutionrelative:materialcalculation\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,20 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\Yevge\\source\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\UP_Ljubivaya\\UP_Ljubivaya\\MaterialCalculation\\Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Yevge\\source\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Ljubivaya_UP\\UP_Ljubivaya\\MaterialCalculation\\Class1.cs",
               "RelativeDocumentMoniker": "MaterialCalculation\\Class1.cs",
-              "ToolTip": "C:\\Users\\Yevge\\source\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\UP_Ljubivaya\\UP_Ljubivaya\\MaterialCalculation\\Class1.cs",
+              "ToolTip": "C:\\Users\\Yevge\\source\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Ljubivaya_UP\\UP_Ljubivaya\\MaterialCalculation\\Class1.cs",
               "RelativeToolTip": "MaterialCalculation\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-04T15:08:49.629Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\Yevge\\source\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Ljubivaya_UP\\UP_Ljubivaya\\TestProject1\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "TestProject1\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\Yevge\\source\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Ljubivaya_UP\\UP_Ljubivaya\\TestProject1\\UnitTest1.cs",
+              "RelativeToolTip": "TestProject1\\UnitTest1.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAAAGAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T19:10:21.063Z",
               "EditorCaption": ""
             },
             {
@@ -45,19 +58,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\Yevge\\source\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\UP_Ljubivaya\\UP_Ljubivaya\\TestProject1\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "TestProject1\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\Yevge\\source\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\UP_Ljubivaya\\UP_Ljubivaya\\TestProject1\\UnitTest1.cs",
-              "RelativeToolTip": "TestProject1\\UnitTest1.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAswHYAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T13:45:53.346Z",
-              "EditorCaption": ""
             }
           ]
         },

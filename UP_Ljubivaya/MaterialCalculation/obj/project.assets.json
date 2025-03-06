@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yevge\\source\\OneDrive\\Рабочий стол\\UP_Ljubivaya\\UP_Ljubivaya\\MaterialCalculation\\MaterialCalculation.csproj",
+      "projectUniqueName": "C:\\Users\\Yevge\\source\\OneDrive\\Рабочий стол\\Ljubivaya_UP\\UP_Ljubivaya\\MaterialCalculation\\MaterialCalculation.csproj",
       "projectName": "MaterialCalculation",
-      "projectPath": "C:\\Users\\Yevge\\source\\OneDrive\\Рабочий стол\\UP_Ljubivaya\\UP_Ljubivaya\\MaterialCalculation\\MaterialCalculation.csproj",
+      "projectPath": "C:\\Users\\Yevge\\source\\OneDrive\\Рабочий стол\\Ljubivaya_UP\\UP_Ljubivaya\\MaterialCalculation\\MaterialCalculation.csproj",
       "packagesPath": "C:\\Users\\Yevge\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yevge\\source\\OneDrive\\Рабочий стол\\UP_Ljubivaya\\UP_Ljubivaya\\MaterialCalculation\\obj\\",
+      "outputPath": "C:\\Users\\Yevge\\source\\OneDrive\\Рабочий стол\\Ljubivaya_UP\\UP_Ljubivaya\\MaterialCalculation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Yevge\\AppData\\Roaming\\NuGet\\NuGet.Config",

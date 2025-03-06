@@ -3,7 +3,7 @@
     public class Class1
     {
         public int MaterialCalculator(int productId, int materialId, int kolProd, float width, float length)
-        {
+        { 
             if (kolProd <= 0 || width <= 0 || length <= 0)
             {
                 return -1; 

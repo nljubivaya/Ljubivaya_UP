@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eMLru2tRC2Y=",
+  "dgSpecHash": "GXrgpouV0w8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Yevge\\source\\OneDrive\\Рабочий стол\\UP_Ljubivaya\\UP_Ljubivaya\\TestProject1\\TestProject1.csproj",
+  "projectFilePath": "C:\\Users\\Yevge\\source\\OneDrive\\Рабочий стол\\Ljubivaya_UP\\UP_Ljubivaya\\TestProject1\\TestProject1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Yevge\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\Yevge\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",

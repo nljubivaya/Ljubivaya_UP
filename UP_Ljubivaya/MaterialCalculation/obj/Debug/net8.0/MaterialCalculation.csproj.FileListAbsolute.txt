@@ -10,3 +10,15 @@ C:\Users\Yevge\source\OneDrive\Рабочий стол\UP_Ljubivaya\UP_Ljubivaya
 C:\Users\Yevge\source\OneDrive\Рабочий стол\UP_Ljubivaya\UP_Ljubivaya\MaterialCalculation\obj\Debug\net8.0\refint\MaterialCalculation.dll
 C:\Users\Yevge\source\OneDrive\Рабочий стол\UP_Ljubivaya\UP_Ljubivaya\MaterialCalculation\obj\Debug\net8.0\MaterialCalculation.pdb
 C:\Users\Yevge\source\OneDrive\Рабочий стол\UP_Ljubivaya\UP_Ljubivaya\MaterialCalculation\obj\Debug\net8.0\ref\MaterialCalculation.dll
+C:\Users\Yevge\source\OneDrive\Рабочий стол\Ljubivaya_UP\UP_Ljubivaya\MaterialCalculation\bin\Debug\net8.0\MaterialCalculation.deps.json
+C:\Users\Yevge\source\OneDrive\Рабочий стол\Ljubivaya_UP\UP_Ljubivaya\MaterialCalculation\bin\Debug\net8.0\MaterialCalculation.dll
+C:\Users\Yevge\source\OneDrive\Рабочий стол\Ljubivaya_UP\UP_Ljubivaya\MaterialCalculation\bin\Debug\net8.0\MaterialCalculation.pdb
+C:\Users\Yevge\source\OneDrive\Рабочий стол\Ljubivaya_UP\UP_Ljubivaya\MaterialCalculation\obj\Debug\net8.0\MaterialCalculation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yevge\source\OneDrive\Рабочий стол\Ljubivaya_UP\UP_Ljubivaya\MaterialCalculation\obj\Debug\net8.0\MaterialCalculation.AssemblyInfoInputs.cache
+C:\Users\Yevge\source\OneDrive\Рабочий стол\Ljubivaya_UP\UP_Ljubivaya\MaterialCalculation\obj\Debug\net8.0\MaterialCalculation.AssemblyInfo.cs
+C:\Users\Yevge\source\OneDrive\Рабочий стол\Ljubivaya_UP\UP_Ljubivaya\MaterialCalculation\obj\Debug\net8.0\MaterialCalculation.csproj.CoreCompileInputs.cache
+C:\Users\Yevge\source\OneDrive\Рабочий стол\Ljubivaya_UP\UP_Ljubivaya\MaterialCalculation\obj\Debug\net8.0\MaterialCalculation.sourcelink.json
+C:\Users\Yevge\source\OneDrive\Рабочий стол\Ljubivaya_UP\UP_Ljubivaya\MaterialCalculation\obj\Debug\net8.0\MaterialCalculation.dll
+C:\Users\Yevge\source\OneDrive\Рабочий стол\Ljubivaya_UP\UP_Ljubivaya\MaterialCalculation\obj\Debug\net8.0\refint\MaterialCalculation.dll
+C:\Users\Yevge\source\OneDrive\Рабочий стол\Ljubivaya_UP\UP_Ljubivaya\MaterialCalculation\obj\Debug\net8.0\MaterialCalculation.pdb
+C:\Users\Yevge\source\OneDrive\Рабочий стол\Ljubivaya_UP\UP_Ljubivaya\MaterialCalculation\obj\Debug\net8.0\ref\MaterialCalculation.dll
