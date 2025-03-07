@@ -108,7 +108,7 @@ namespace TestProject1
             double expected = (100 * 200 * 10.0 * 50) + ((100 * 200 * 10.0 * 50) * 0.0095);
             Assert.AreNotEqual(Convert.ToInt32(Math.Ceiling(expected)), result);
         }
-        // Проверяет метод с валидными входными данными и высоким дефектом.
+        // Проверяет метод с валидными входными данными 
         [TestMethod]
         public void Test_ValidInputWithHighDefect()
         {
